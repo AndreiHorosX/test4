@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css".css">
+  </head>
+  <body>
+    <h1 style="text-align: center">ФОРМА РЕГИСТРАЦИИ 3</h1>
+    <hr style="color: blue" size="30px" />
+    <br />
+    <br />
+    <form>
+      <div class="row">
+        <div class="col">
+          <label for="email" class="form-label">Email:</label>
+          <input
+            type="text"
+            class="form-control-plaintext form-control-lg"
+            placeholder="Enter email"
+            name="Имя"
+            id="c"
+          />
+        </div>
+        <div class="col">
+          <label for="email" class="form-label">Password:</label>
+          <input
+            type="Те"
+            class="form-control-plaintext form-control-lg"
+            placeholder="Enter password"
+            name="pswd"
+            id="b"
+          />
+        </div>
+      </div>
+      <br />
+      <div class="form-check mb-3">
+        <label class="form-check-label" id="a">
+          <input class="form-check-input" type="checkbox" name="remember" />
+          Remember me
+        </label>
+      </div>
+      <button
+        type="submit"
+        class="btn btn-primary"
+        data-bs-toggle="tooltip"
+        title="Проверьте если все правильно!"
+        data-bs-placement="right"
+      >
+        Submit
+      </button>
+    </form>
+    <script src="">
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
+  </body>
+</html>

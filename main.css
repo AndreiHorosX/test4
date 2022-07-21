@@ -1,0 +1,25 @@
+h1:hover {
+  background-color: blue;
+  color: white;
+}
+body {
+  background-color: black;
+}
+h1 {
+  color: blue;
+}
+#a {
+  color: white;
+}
+
+/* #b {
+  background-color: blue;
+}
+
+#c {
+  background-color: blue;
+} */
+
+label {
+  color: white;
+}
